@@ -312,7 +312,7 @@ Resources:
       LaunchTemplateName: WebServerLaunchTemplate
       LaunchTemplateData:
         ImageId: !Ref LatestAmiId
-        InstanceType: t2.micro
+        InstanceType: t3.micro
         Monitoring:
           Enabled: true
         IamInstanceProfile:
